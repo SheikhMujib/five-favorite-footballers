@@ -51,7 +51,8 @@
                                                 <span>Caps: 162</span>
                                                 <span>Goals: 86</span>
                                             </p>
-                                            <button type="button" class="btn btn-primary px-5">SELECT</button>
+                                            <button onclick="addToFavorite(this)" type="button"
+                                                class="btn btn-primary px-5">SELECT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -65,7 +66,8 @@
                                                 <span>Caps: 132</span>
                                                 <span>Goals: 76</span>
                                             </p>
-                                            <button type="button" class="btn btn-primary px-5">SELECT</button>
+                                            <button onclick="addToFavorite(this)" type="button"
+                                                class="btn btn-primary px-5">SELECT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +81,8 @@
                                                 <span>Caps: 189</span>
                                                 <span>Goals: 117</span>
                                             </p>
-                                            <button type="button" class="btn btn-primary px-5">SELECT</button>
+                                            <button onclick="addToFavorite(this)" type="button"
+                                                class="btn btn-primary px-5">SELECT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +99,8 @@
                                                 <span>Caps: 102</span>
                                                 <span>Goals: 68</span>
                                             </p>
-                                            <button type="button" class="btn btn-primary px-5">SELECT</button>
+                                            <button onclick="addToFavorite(this)" type="button"
+                                                class="btn btn-primary px-5">SELECT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +114,8 @@
                                                 <span>Caps: 119 </span>
                                                 <span>Goals: 74</span>
                                             </p>
-                                            <button type="button" class="btn btn-primary px-5">SELECT</button>
+                                            <button onclick="addToFavorite(this)" type="button"
+                                                class="btn btn-primary px-5">SELECT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -124,7 +129,8 @@
                                                 <span>Caps: 57</span>
                                                 <span>Goals: 27</span>
                                             </p>
-                                            <button type="button" class="btn btn-primary px-5">SELECT</button>
+                                            <button onclick="addToFavorite(this)" type="button"
+                                                class="btn btn-primary px-5">SELECT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -135,9 +141,9 @@
                             <!-- Player Selection and Budget Section Start -->
                             <!-- Favorite Five Player Slection Section -->
                             <div class="row row-cols-1 mb-4">
-                                <div class="col bg-dark py-5">
+                                <div class="col bg-dark py-5 text-white">
                                     <h3 class="text-primary text-center mt-3">Favorite Five</h3>
-                                    <ol>
+                                    <ol id="favorite-five">
                                     </ol>
                                 </div>
                             </div>
@@ -167,6 +173,7 @@
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/favorite.js"></script>
 </body>
 
 </html>
