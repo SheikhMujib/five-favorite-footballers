@@ -6,8 +6,6 @@ function addToFavorite(element) {
     const li = document.createElement('li');
     li.innerText = favoritePlayer;
 
-    // favoriteFootballers.appendChild(li);
-
     if (favoriteFootballers.childElementCount <= 4) {
         favoriteFootballers.appendChild(li);
     }
