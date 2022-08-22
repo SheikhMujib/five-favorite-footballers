@@ -135,7 +135,7 @@
                             <!-- Player Selection and Budget Section Start -->
                             <!-- Favorite Five Player Slection Section -->
                             <div class="row row-cols-1 mb-4">
-                                <div class="col bg-dark">
+                                <div class="col bg-dark py-5">
                                     <h3 class="text-primary text-center mt-3">Favorite Five</h3>
                                     <ol>
                                     </ol>
@@ -143,10 +143,21 @@
                             </div>
                             <!-- Budget Calculation Section -->
                             <div class="row row-cols-1">
-                                <div class="col bg-dark">
-                                    <h3 class="text-primary text-center mt-3">Budget</h3>
-                                    <ol>
-                                    </ol>
+                                <div class="col bg-dark py-5">
+                                    <h3 class="text-primary text-center pb-2">Budget</h3>
+                                    <form action="#" class="text-white text-center">
+                                        <label for="pplayer">Per Player</label>
+                                        <input type="text" id="pplayer" name="pplayer"><br><br>
+                                        <button type="button" class="btn btn-primary px-5">Calculate</button><br><br>
+                                        <h5>Player Expenses $<span>000</span></h5><br>
+                                        <label for="manager">Manager</label>
+                                        <input type="text" id="manager" name="manager"><br><br>
+                                        <label for="coach">Coach</label>
+                                        <input type="text" id="coach" name="coach"><br><br>
+                                        <button type="button" class="btn btn-primary px-5">Calculate
+                                            Total</button><br><br>
+                                        <h5>Total $<span class="text-warning">000</span></h5>
+                                    </form>
                                 </div>
                             </div>
                         </div>
