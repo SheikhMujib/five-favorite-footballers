@@ -15,4 +15,5 @@ function addToFavorite(element) {
     }
 
     element.setAttribute("disabled", "");
+    element.style.backgroundColor = "Gainsboro"
 }
