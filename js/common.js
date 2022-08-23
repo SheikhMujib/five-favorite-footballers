@@ -3,7 +3,14 @@ function getInputFieldValueById(inputFieldId) {
     const inputField = document.getElementById(inputFieldId);
     const inputFieldAmountString = inputField.value;
     const inputFieldAmount = parseInt(inputFieldAmountString);
+
     // inputField.value = '';
+
+    if (isNaN(inputFieldAmount)) {
+        alert('Please, provide a valid number.');
+        return;
+    }
+
     return inputFieldAmount;
 }
 
